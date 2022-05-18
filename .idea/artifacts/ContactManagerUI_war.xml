@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ContactManagerUI:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ContactManagerUI</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ContactManagerUI-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="ContactManagerUI:war exploded" />
+    </root>
+  </artifact>
+</component>
